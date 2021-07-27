@@ -27,3 +27,7 @@ Only allow the key map to be triggered when the screen is on or off.
 ### Flashlight is on/off (2.4.0+, Android 6.0+)
 
 Your mapping will only work if the front or back flashlight is on/off.
+
+### WiFi on/off/connected/disconnect (2.4.0+)
+
+Your mapping will only work if it your device's WiFi is on/off or connected/disconnected to a network. 
