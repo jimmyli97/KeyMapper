@@ -179,3 +179,7 @@ This is different to 'lock device' because this will force you to unlock your de
 #### Show power menu
 
 #### Do nothing
+
+#### Dismiss all notifications (2.4.0+)
+
+#### Dismiss most recent notification (2.4.0+)
