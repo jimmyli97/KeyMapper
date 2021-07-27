@@ -6,8 +6,17 @@ If you have more than two constraints you can choose between an 'AND' and 'OR' m
 ### App in/not foreground
 Your mapping will only work if your app of choice is the actively selected window, i.e. on screen and being interacted with. 'App not in foreground' will likewise restrict your map to working only if your app of choice isn't in focus.
 
-### Specific app playing media (2.2.0+)
+### App playing media (2.2.0+)
 Your mapping will only work if your app of choice is playing media.
+
+### App not playing media (2.4.0+)
+Your mapping will only work if your app of choice is not playing media.
+
+### Media playing (2.4.0+)
+Your mapping will only work if any media is playing.
+
+### Media not playing (2.4.0+)
+Your mapping will only work if no media is playing.
 
 ### Bluetooth device is connected/disconnected
 Your mapping will only work if a specific bluetooth device is connected/disconnected.
