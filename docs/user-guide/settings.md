@@ -33,6 +33,13 @@ Tapping this will let you delete sound files that are being used by sound action
 
 Read more about this [here](shizuku.md).
 
+## Automatically change the on-screen keyboard when you start typing (2.4.0+)
+
+!!! attention
+    You must [grant Key Mapper WRITE_SECURE_SETTINGS permission](../adb-permissions/#write_secure_settings) for this to notification to be shown. Alternatively on Android 11+ you can just turn on the accessibility service.
+
+Your normal keyboard will be automatically selected when you try to start typing and your Key Mapper keyboard will be selected when you close the keyboard.
+
 ## Automatically change the on-screen keyboard when a device connects/disconnects
 
 !!! attention
