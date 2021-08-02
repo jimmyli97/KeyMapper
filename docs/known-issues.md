@@ -16,6 +16,10 @@ Here is how to fix it:
 
 4. In some **very rare** cases there is a bug in Key Mapper that causes it to crash while it is running in the background. You will need to send a bug report so that the developer can investigate the issue. Tap "Report bug" in Key Mapper's home screen menu.
 
+## External keyboard language is set to English US when using Key Mapper (Android 11 only)
+
+This is a bug in Android 11 and should be fixed in Android 12. There is a setting in Key Mapper 2.3.0+ that helps you work around this issue. Read more [here](https://sds100.github.io/KeyMapper/redirects/android-11-device-id-bug-work-around).
+
 ## Volume increases to max/minimum when pressing power and the respective volume button when the device is off
 
 This seems to be a bug with accessibility services on Android Pie+ on some devices. It also happens with the Macrodroid app when you only enable their accessibility service which filters key events. I tested Key Mapper with no code in the onKeyEvent function in the accessibility service and it still happens. These are the devices that I've tested.
