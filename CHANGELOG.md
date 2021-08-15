@@ -1,3 +1,20 @@
+## [2.3.0 Beta 5](https://github.com/sds100/KeyMapper/releases/tag/v2.3.0-beta.05)
+
+#### 15 August 2021
+
+### Changes
+- Never show the "key mapper has crashed" dialog automatically since this causes a lot of confusion.
+- Prompt the user to restart hte accessibility service rather than report a bug. #736
+
+### Added
+- Polish translations
+
+### Bug Fixes
+- Just opening any options dialog might modify the options.
+- Various NPEs
+- Crash when showing on back pressed dialog
+- Crash if trying to open an app store link without any app store being installed
+
 ## [2.3.0 Beta 4](https://github.com/sds100/KeyMapper/releases/tag/v2.3.0-beta.04)
 
 #### 19 July 2021
