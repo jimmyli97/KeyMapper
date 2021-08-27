@@ -1,10 +1,73 @@
+## [2.3.0](https://github.com/sds100/KeyMapper/releases/tag/v2.3.0)
+
+These are all the changes from 2.2.0.
+
+#### 27 August 2021
+
+### Added
+- 🎉 A new website with a tutorial! 🎉 [docs.keymapper.club](https://docs.keymapper.club)
+
+- Action to broadcast intent, start activity and start service. #112
+- Action to show the input method picker by using the Key Mapper keyboard. #531
+- Action to toggle the notification drawer and the quick settings drawer. #242
+- Action to call a phone number. #516
+- Action to play a sound.
+
+- A workaround for the Android 11 bug that sets the language of external keyboards to English-US when an accessibility service is enabled. #618 Read the guide here https://docs.keymapper.club/redirects/android-11-device-id-bug-work-around
+
+- Prompt the user to read the quick start guide on the website the first time the app is opened. #544
+- Links to a relevant online guide in each screen in the app. #539
+- Option in key event action to input the key event through the shell. #559
+- Splash screen #561
+- Data migrations when restoring from backups. #574
+- Enable hold down and disable repeat by default for modifier key actions. #579
+- Ability to change the input method with the accessibility service on Android 11+. #619
+- Make it clearer that selecting a screenshot to set up a tap coordinate action is optional. #632
+- Show a prompt to install the Key Mapper GUI Keyboard when a key event action is created. #645
+- Back up default key map settings in back ups. #659 
+- Warnings when the accessibility service is turned on but isn't actually running. #643
+- Show a message at the top of the home screen when mappings are paused. #642
+- A caution message to avoid locking the user when using screen pinning mode. #602
+- A logging page in the app which can be used instead of bug reports. #651
+- A button in the settings to reset sliders to their default. #589
+- A repeat limit action option. #663
+- Show a dialog before resetting fingerprint gesture maps.
+- A new Key Mapper keyboard that is designed for Android TV. #493
+- An Intent API to pause/resume key maps. #668
+- Allow Key Mapper to be launched from the Android TV launcher. #695
+- Make it much easier to report bugs and turn off aggressive app killing. #728 There is now a button in the home screen menu to send a bug report and the user is now prompted to read dontkillmyapp.com when the accessibility service crashes.
+- Support for repeat until limit reached action option in fingerprint gesture maps. #710
+
+- Polish translations.
+- Czech translations. 
+
+### Changed
+- Move action option to show a toast message to the same place as the vibrate option. #565
+- Replace setting to choose Bluetooth device in settings with setting to choose any input device. #620
+- Rename 'action count' option to 'how many times'. #611
+- Move option to show the volume ui for an action to when the action is created. #639
+- Tapping the pause/resume key maps notification now opens Key Mapper. #665
+- Make action descriptions more descriptive when repeat is turned on. #666
+- Alerts at the top of the home screen have been simplified.
+
+### Removed
+- Dex slide in the app intro because it didn't work. #646
+- Buttons to enable all and disable all key maps in the home screen menu. #647
+- Support for Android KitKat 4.4 and older. #627
+- Ability to view changelog, license and privacy policy in an in-app dialog. They now open a link in the browser. #648
+- Alerts at the top of the home screen to enable a Key Mapper keyboard, grant WRITE_SECURE_SETTINGS and grant Do not Disturb mode.
+
+### Bug Fixes
+
+See the 2.3.0 Beta releases below.
+
 ## [2.3.0 Beta 5](https://github.com/sds100/KeyMapper/releases/tag/v2.3.0-beta.05)
 
 #### 15 August 2021
 
 ### Changes
 - Never show the "key mapper has crashed" dialog automatically since this causes a lot of confusion.
-- Prompt the user to restart hte accessibility service rather than report a bug. #736
+- Prompt the user to restart the accessibility service rather than report a bug. #736
 
 ### Added
 - Polish translations
