@@ -13,3 +13,19 @@ This wiki aims to provide users with a comprehensive guide to using and setting 
 
 [Get help :fontawesome-brands-discord:](http://keymapper.club){: .md-button .md-button--primary }
 [Support the project :fontawesome-solid-heart:](https://ko-fi.com/sethschroeder){: .md-button }
+
+## Our team 🧑‍💻
+
+### Developer
+
+- [Seth Schroeder (sds100)](https://github.com/sds100)
+
+### Community moderators/support
+
+- [Jambl3r](https://gitlab.com/jambl3r)
+- [GL513]()
+
+### Translators
+
+- TrollServer (Czech)
+- [kekero (Polish)](https://github.com/LoveEevee)
